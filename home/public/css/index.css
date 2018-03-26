@@ -1,0 +1,491 @@
+*{
+    font-family: 微軟雅黑;
+    margin:0px;
+    padding: 0px;
+    font-size: 12px;
+}
+h1
+{
+    font-size:30px;
+}
+a
+{
+    text-decoration: none;
+    color:#afa9a9;
+}
+body
+{
+    overflow-x: hidden;
+    height: 29px;
+    /*background: #cfcece*/
+}
+.top
+{
+    height: 26px;
+    background: #f2f2f2;
+}
+.main
+{
+    color:#afa9a9;
+    width: 1200px;
+    margin:0 auto;
+    position: relative;
+    line-height: 26px;
+}
+.main-left
+{
+    float: left;
+}
+.main-right .span ,.main-right .a
+{
+    margin-right: 5px;
+}
+.main-left .span ,.main-left .a
+{
+    margin-left: 8px;
+}
+.main-right
+{
+    float: right;
+}
+.main-right .ceo
+{
+    color: #d7082d;
+}
+.main-right .phone
+{
+    background: #c00;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.main-right .cart
+{
+    width: 15px;
+    height: 15px;
+    background: url('../img/public-24.png') no-repeat -18px 1px;
+    padding-left: 15px;
+}
+.main-right .phone .pre
+{
+    width: 15px;
+    height: 15px;
+    background: url('../img/public-24.png') no-repeat -62px 0px;
+    padding-left: 15px;
+}
+.main-right .cart
+{
+    width: 15px;
+    height: 15px;
+    background: url('../img/public-24.png') no-repeat -18px 1px;
+    padding-left: 15px;
+}
+.main-right .guide
+{
+    width: 15px;
+    height: 15px;
+    background: url('../img/public-24.png') no-repeat -80px 2px;
+    padding-left: 15px;
+}
+.main-right .server-icon
+{
+    margin: 7px 5px 0 0;
+    width: 15px;
+    height: 15px;
+    background: url('../img/public-24.png') no-repeat -87px -263px;
+    padding-left: 15px;
+}
+.banner
+    height: 1920px;
+    width: 1360px;
+}
+.banner img
+{
+    display: block;
+    margin-left: -500px;
+}
+.main-right  .myjiuxian-icon
+{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background: url('../img/public-24.png') no-repeat -99px 10px;
+    float: left;
+    margin-left: 5px;
+    margin-top:2px;
+}
+.main-right .myjiuxian
+{
+    cursor: pointer;
+    float: left;
+    width: 70px;
+}
+.main-right .myjiuxian-dropdown
+{
+    position: absolute;
+    width: 70px;
+    background: #fff;
+    display: none;
+}
+.main-right  .myjiuxian-dropdown ul
+{
+    list-style: none;
+}
+.main-right .myjiuxian .myjiuxian-top span
+{
+    float: left;
+}
+.main-right .myjiuxian .myjiuxian-top .clear
+{
+    clear: both;
+}
+.main-right .server
+{
+    cursor: pointer;
+    float: right;
+    width: 80px;
+}
+.main-right .server-dropdown
+{
+    position: absolute;
+    width: 80px;
+    background: #fff;
+    display: none;
+}
+.main-right  .server-dropdown ul
+{
+    list-style: none;
+}
+.main-right .server .server-top span
+{
+    float: left;
+}
+.main-right .server .server-top .clear
+{
+    clear: both;
+}
+.main-right .hotline
+{
+    float: right;
+}
+.header
+{
+    height: 125px;
+    background: url('../img/th.jpg');
+    background-size: 100% 100%;
+}
+.logo
+{
+    float: left;
+    margin-top: 30px;
+}
+.adv
+{
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.search
+{
+    margin-top: 32px;
+    float: left;
+    margin-left: 15px;
+    width: 540px;
+    height: 65px;
+
+}
+.preferential
+{
+    margin-top: 30px;
+    float: right;
+}
+.search-top
+{
+    height: 32px;
+    border: 3px solid #c00;
+}
+.search-form
+{
+    width: 439px;
+    height: 22px;
+    line-height: 22px;
+    padding: 5px;
+    border: 0 none;
+    color: #666;
+}
+.search-form:focus
+{
+    outline: none;
+}
+.search-btn
+{
+    width: 85px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border: 0;
+    font-style: 16px;
+    color: #fff;
+    background-color: #c00;
+    cursor: pointer;
+    float: right;
+}
+.search-bottom
+{
+    width:540px;
+    height: 18px;
+    padding-top: 5px;
+}
+.search-bottom ul
+{
+    list-style: none;
+}
+.search-bottom ul li
+{
+    float: left;
+    margin-right: 7px;
+    line-height: 18px;
+}
+.search-bottom  .hot
+{
+    color: #c00;
+}
+.ppt
+{
+    height: 34px;
+    background: #c00;
+
+}
+/*左侧导航*/
+.ppt .main .s-navigation
+{
+    color:#fff;
+    height: 34px;
+    overflow: hidden;
+    background: #c00;
+    list-style: none;
+}
+.ppt .main .s-navigation ul
+{
+    width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+}
+.ppt   .main .s-navigation ul li
+{
+    float: left;
+    line-height: 34px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.ppt .banner
+{
+    background: #ce171f;
+    width: 150px;
+    text-align: cneter;
+    /*margin-left: 0px!important;*/
+}
+.ppt  .div1
+{
+    width: 1200px;
+    height: 470px;
+    margin: 0 auto;
+    position: relative;
+}
+.ppt  .div2
+{
+    width: 150px;
+    height: 470px;
+    background: #fff;
+    border-left: 1px solid #ccc ;
+    border-bottom: 1px solid #ccc;
+}
+.ppt .div2 ul
+{
+    list-style: none;
+}
+.ppt .div2 ul li
+{
+    padding-left: 15px;
+    line-height: 30px;
+    color: #000;
+    border-bottom: 1px solid #ccc;
+}
+.ppt .div2 ul li:last-child
+{
+    padding-left: 15px;
+    line-height: 30px;
+    color: #000;
+    border-bottom: none;
+}
+.ppt .div2 ul li:hover
+{
+    cursor: pointer;
+}
+.ppt .right
+{
+
+    z-index: 2;
+    width: 800px;
+    height: 440px;
+    background: #eee;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    padding: 15px;
+    color: #000;
+    display: none;
+}
+.ppt .menu
+{
+    height: 470px;
+}
+/*顶部幻灯片*/
+.carousel
+{
+    height: 470px;
+    width:1050px;
+    float: right;
+    background: #aff;
+    position: relative;
+}
+.carousel .window
+{
+    height: 470px;
+    width: 1050px;
+    overflow: hidden;
+    position: relative;
+}
+.carousel .image_reel
+{
+    position: absolute;
+    top 0;left: 0;
+}
+.carousel .image_reel img
+{
+    float: left;
+}
+.carousel .paging
+{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    bottom: 0px;
+    right: 50%;
+    margin-right: -75px;
+    z-index: 1;
+    text-align: center;
+    line-height: 40px;
+    display: none;
+}
+.carousel .paging a
+{
+    border-radius: 50%;
+    padding:0px 5px;
+    text-decoration: none;
+    color: #fff;
+}
+.carousel .paging a.active
+{
+    font-weight: bold;
+    background: #920000;
+    border: 1px solid #610000;
+    border-radius: 3px ;
+}
+.carousel .paging a:hover
+{
+    font-weight: bold;
+}
+
+.carousel .right-adv .img
+{
+    /*display: none;*/
+    margin-bottom: 1px;
+}
+.carousel .right-adv img
+{
+    display: block;
+}
+
+.carousel .right-adv .img:last-child
+{
+    margin-bottom: 0px;
+}
+.carousel .right-adv
+{
+    overflow: hidden;
+    position: absolute;
+    top:0px;
+    right: 1px;
+    width: 190px;
+    height: 470px;
+}
+.ppt .nav1
+{
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: #10a5e4;
+    background: url("../img/public-24.png") -73px -260px;
+}
+
+.ppt .nav2
+{
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: #10a5e4;
+    background: url("../img/public-24.png") 2px -100px;
+}
+
+.ppt .nav3
+{
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: #10a5e4;
+    background: url("../img/public-24.png") -16px -102px;
+}
+
+.ppt .nav4
+{
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: #10a5e4;
+    background: url("../img/public-24.png") -37px -100px;
+}
+
+.ppt .nav5
+{
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: #10a5e4;
+    background: url("../img/public-24.png") -59px -100px;
+}
+
+.ppt .nav6
+{
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: #10a5e4;
+    background: url("../img/public-24.png") -79px -100px;
+}
+.ppt .menu .div2 li:hover
+{
+    border-left:  2px solid #cc1717;   
+}
